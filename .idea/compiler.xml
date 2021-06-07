@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="service-oauth2-jwt" />
         <module name="serice-feign" />
         <module name="service-ribbon" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="serice-feign" options="-parameters" />
+      <module name="service-oauth2-jwt" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
     </option>
   </component>

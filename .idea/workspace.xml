@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f5f743-79c4-4285-83c8-02f140a9b987" name="Default Changelist" comment="" />
+    <list default="true" id="a5f5f743-79c4-4285-83c8-02f140a9b987" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/ServiceOauth2JwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/config/JwtTokenStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/config/RedisTokenStoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/enhancer/JwtTokenEnhancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/java/com/springcloud/serviceoauth2jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oauth2-jwt/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +45,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tools\apache-maven-3.5.3\conf\repository" />
         <option name="mavenHome" value="D:/Tools/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -37,21 +73,23 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-dubbo-zk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oauth2-jwt/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Develop\demo\finchley\eureka-server\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Develop\demo\finchley" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Develop\demo\finchley\service-oauth2-jwt\src\main\resources" />
+      <recent name="D:\Develop\demo\finchley\eureka-server\src\main\resources" />
       <recent name="D:\Develop\demo\finchley" />
     </key>
   </component>
@@ -67,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceOauth2JwtApplication">
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eurekaclient.EurekaClientApplication" />
@@ -90,6 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceOauth2JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oauth2-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.serviceoauth2jwt.ServiceOauth2JwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.serviceribbon.ServiceRibbonApplication" />
@@ -102,6 +147,7 @@
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceRibbonApplication" />
       <item itemvalue="Spring Boot.SericeFeignApplication" />
+      <item itemvalue="Spring Boot.ServiceOauth2JwtApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -120,10 +166,26 @@
       <workItem from="1619594145897" duration="6381000" />
       <workItem from="1619658510940" duration="8104000" />
       <workItem from="1620271684642" duration="2848000" />
+      <workItem from="1621653486880" duration="2745000" />
+      <workItem from="1622800152903" duration="694000" />
+      <workItem from="1623031081001" duration="14442000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
